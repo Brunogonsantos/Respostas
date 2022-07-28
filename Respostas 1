@@ -1,21 +1,18 @@
-Resposta 1 em C#:
-
-
-usando Sistema;
+using System;
 
 namespace Gupy
 {
-    programa de aula
+    class Program
     {
         static void Main(string[] args)
         {
-            int ÍNDICE, SOMA, K;
+            int INDICE, SOMA, K;
 
-            ÍNDICE = 13;
+            INDICE = 13;
             SOMA = 0;
             K = 0;
 
-            enquanto (K < ÍNDICE)
+            while (K < INDICE)
             {
                 K = K + 1;
                 SOMA = SOMA + K;
